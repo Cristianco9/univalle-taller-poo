@@ -163,21 +163,20 @@ int fn10() {
 }
 
 // Main Fn
-// Descomentar la función que se quiera ejecutar
 int main() {
     cout<<"\n*****************START**********************";
     cout<<"\n******************MENU**********************";
     int option;
-    cout<<"\n1. calculate (a / b) + 1"; 
-    cout<<"\n2. calculate (a + b) / (c + d)"; 
-    cout<<"\n3. calculate (a + (b / c) / (d + (e / f)";
-    cout<<"\n4. calculate (a + (b / (c - d)))";
-    cout<<"\n5. interchange 2 numbers";
-    cout<<"\n6. calculate final qualification";
-    cout<<"\n7. calculate average qualification";
-    cout<<"\n8. calculate triangle hypotenuse";
-    cout<<"\n9. calculate f(x,y)";
-    cout<<"\n10. calculate quadratic function";
+    cout<<"\n1. Calculate (a / b) + 1"; 
+    cout<<"\n2. Calculate (a + b) / (c + d)"; 
+    cout<<"\n3. Calculate (a + (b / c) / (d + (e / f)";
+    cout<<"\n4. Calculate (a + (b / (c - d)))";
+    cout<<"\n5. Interchange 2 numbers";
+    cout<<"\n6. Calculate final qualification";
+    cout<<"\n7. Calculate average qualification";
+    cout<<"\n8. Calculate triangle hypotenuse";
+    cout<<"\n9. Calculate f(x,y)";
+    cout<<"\n10. Calculate quadratic function";
     cout<<"\n11. Exit";
     cout<<"\nEnter a option: ";cin>>option;
 

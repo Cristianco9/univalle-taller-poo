@@ -63,13 +63,12 @@ int fn3() {
 }
 
 // Main Fn
-// Descomentar la función que se quiera ejecutar
 int main() {
     cout<<"\n*****************START**********************";
     cout<<"\n******************MENU**********************";
     int option;
-    cout<<"\n1. calculate arithmetic operations"; 
-    cout<<"\n2. calculate product tax"; 
+    cout<<"\n1. Calculate arithmetic operations"; 
+    cout<<"\n2. Calculate product tax"; 
     cout<<"\n3. Enter user data";
     cout<<"\n4. Exit";
     cout<<"\nEnter a option: ";cin>>option;
